@@ -41,7 +41,7 @@ function Formulario (props) {
         onSubmit={manejarEnvio}>
 
             <input className="tarea-input"
-            type="text" placeholder="Escribe una tarea" 
+            type="text" placeholder="Escribe una Tia Paoola" 
             name="texto" 
             onChange={manejarCambio} />
 

@@ -8,21 +8,20 @@
 .tarea-input {
     width: 350px;
     font-size: 18px;
-    background-color: #603601;
-    color: white;
+    background-color: #999B84;
+    color: black;
     padding: 14px 32px 14px 16px;
     outline: none;
     border: none;
-    border-radius: 5px;
 }
 
 .tarea-boton {
-    padding: 16px;
+    padding: 14px;
     font-size: 18px;
     border: none;
     cursor: pointer;
     outline: none;
-    background-color: #999B84;
-    color: black;
-    border-radius: 5px;
+    background-color: #D79771;
+    color: white;
+    user-select: none;
 }

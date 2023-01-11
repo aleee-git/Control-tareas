@@ -1,9 +1,8 @@
 .tarea-container {
     width: 500px;
     min-height: 65px;
-    background-color: #D0B8A8;
     margin: 5px 0;
-    padding: 8px 15px 8px 20px;
+    padding: 8px 15px 8px 30px;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
@@ -12,13 +11,13 @@
 
 /* Cambio de colores en las tareas, cada 3 tareas se repetira el color */
 .tarea-container:nth-child(3n +1 ) {
-    background-color: greenyellow;
+    background-color: #F4DFD0;
 }
 .tarea-container:nth-child(3n +2 ) {
-    background-color: blue;
+    background-color: #CDBBA7;
 }
 .tarea-container:nth-child(3n +3 ) {
-    background-color: orange;
+    background-color: #FDEFEF;
 }
 
 .tarea-texto {
@@ -27,7 +26,6 @@
     display: flex;
     font-size: 20px;
     align-items: center;
-    margin: 9px;
     /* Permite que si un texto es demasiado largo pase a la otra linea */
     overflow-wrap: anywhere;
 }
