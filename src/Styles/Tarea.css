@@ -1,0 +1,28 @@
+.tarea-container {
+    width: 500px;
+    min-height: 65px;
+    background-color: #D0B8A8;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.tarea-texto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin: 9px;
+    /* Permite que si un texto es demasiado largo pase a la otra linea */
+    overflow-wrap: anywhere;
+}
+
+.tarea-icon, .icons-container {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}

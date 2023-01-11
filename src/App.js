@@ -1,5 +1,6 @@
 import './App.css';
 import Homework from'./Images/Homework.jpg'
+import Tarea from './Componentes/Tarea';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       </div>
 
       <div className="main-list">
-        <h1>Mis Tareas 😒</h1>
-        
+        <h1>Mis Tareas 🙄</h1>
+        <Tarea texto="Aprender React"/>
       </div>
 
     </div>
