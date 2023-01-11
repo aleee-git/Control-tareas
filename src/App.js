@@ -9,7 +9,12 @@ function App() {
         <img src={Homework}
         className="logo" alt="Gatito"/>
       </div>
-      
+
+      <div className="main-list">
+        <h1>Mis Tareas 😒</h1>
+        
+      </div>
+
     </div>
   );
 }
