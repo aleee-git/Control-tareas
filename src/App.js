@@ -1,7 +1,6 @@
 import './App.css';
 import Homework from'./Images/Homework.jpg'
-import Tarea from './Componentes/Tarea';
-import Formulario from './Componentes/Formulario';
+import ListaTareas from './Componentes/ListaTareas'
 
 function App() {
   return (
@@ -14,9 +13,7 @@ function App() {
 
       <div className="main-list">
         <h1>Mis Tareas 🙄</h1>
-        <Formulario/>
-        
-        <Tarea texto="Aprender React"/>
+        <ListaTareas/>
       </div>
 
     </div>
