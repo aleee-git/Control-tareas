@@ -2,9 +2,11 @@ import React from "react";
 import '../Styles/Tarea.css';
 import {AiOutlineCloseCircle} from "react-icons/ai";
 
-function Tarea ({texto}) {
+function Tarea ({texto, completada}) {
     return (
-        <div className="tarea-container">
+        /* Condicionar la tarea, si ya la termino = tarea-container completada
+        Sino tarea-container, es decir pendiente aun */
+        <div className={completada ? "tarea-container completada" : "tarea-container"}>
 
             <div className="tarea-texto">
                 {texto}

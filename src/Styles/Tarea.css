@@ -26,3 +26,9 @@
     height: 25px;
     margin: 5px;
 }
+
+.tarea-container.completada {
+    background-color: rgb(238, 196, 196);
+    color: red;
+    text-decoration: line-through;
+}
